@@ -777,7 +777,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.17;
     letter-spacing: 0.04em;
     text-align: left;
-    color: var(--secondary-text);
+    color: var(--light-slate);
 }
 
 .input-wrapper {
@@ -916,9 +916,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-checkbox:checked+.modal-checkbox-label .modal-checkbox-custom {
-    background-color: var(--active);
+    background-color: var(--ocean);
     border: none;
-    fill: var(--light-bgc);
+    fill: var(--cloud);
 }
 
 .input-form:focus,
@@ -946,7 +946,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color: var(--cta);
+    background-color: var(--iris);
     color: var(--white);
     padding: 16px 32px;
     border-radius: var(--radius);
@@ -958,7 +958,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-submit-button:hover,
 .modal-submit-button:focus {
-    background-color: var(--active);
+    background-color: var(--ocean);
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
